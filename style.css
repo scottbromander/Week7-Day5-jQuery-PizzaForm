@@ -1,0 +1,6 @@
+.animal {
+    width: 75px;
+    height: 30px;
+    border: 1px solid black;
+    display: inline-block;
+}
