@@ -1,6 +1,18 @@
-.animal {
-    width: 75px;
-    height: 30px;
-    border: 1px solid black;
-    display: inline-block;
+table {
+    width: 100%;
+}
+
+th {
+    background-color: BurlyWood;
+}
+
+th, td {
+    padding: 15px;
+    text-align: left;
+}
+
+.btn {
+    background-color: honeydew;
+    border-radius: 6px;
+    padding: 8px 12px;
 }

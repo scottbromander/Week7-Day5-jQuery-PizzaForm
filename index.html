@@ -12,22 +12,32 @@
     <script src="client.js"></script>
 </head>
 <body>
-    <div>
-        <button class="cat">Cat</button>
-        <button class="dog">Dog</button>
-        <button class="bird">Bird</button>
-    </div>
+    <form id="customerForm">
+        <input type="text" name="firstName" id="firstName" placeholder="Enter First Name">
+        <input type="text" name="lastName" id="lastName" placeholder="Enter Last Name">
+        <input type="text" name="pizza" id="pizza" placeholder="Enter Type of Pizza">
+        <input type="number" name="cost" id="cost" placeholder="Enter Cost of Pizza">
+        <button>Submit</button>
+    </form>
 
-    <div class="container">
-        <ul>
-            <li class="catClicks">Cats: 0</li>
-            <li class="dogClicks">Dogs: 0</li>
-            <li class="birdClicks">Birds: 0</li>
-        </ul>
-    </div>
+    <button class="js-btn-clear">Clear</button>
 
-    <div class="showMe">
+    <table>
+        <thead>
+            <tr>
+                <th>First Name</th>
+                <th>Last Name</th>
+                <th>Pizza</th>
+                <th>Cost</th>
+                <th>Delete</th>
+            </tr>
+        </thead>
 
-    </div>
+        <tbody class="js-orders">
+            
+        </tbody>
+    </table>
+
+    <p class="total-cost">TOTAL : $0</p>
 </body>
 </html>
